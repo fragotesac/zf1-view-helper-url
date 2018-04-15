@@ -63,5 +63,4 @@ class Zend_View_Helper_UrlTest extends PHPUnit\Framework\TestCase
         $url = $this->helper->url(array('controller' => 'ctrl', 'action' => 'act'));
         $this->assertEquals('/ctrl/act', $url);
     }
-
 }
